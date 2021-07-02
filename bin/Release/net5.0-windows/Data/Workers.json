@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Имя",
+    "MiddleName": "Отчество",
+    "LastName": "Фамилия",
+    "Subjects": [],
+    "Salary": 0
+  },
+  {
+    "Name": "И",
+    "MiddleName": "О",
+    "LastName": "Ф",
+    "Subjects": [],
+    "Salary": 0
+  }
+]

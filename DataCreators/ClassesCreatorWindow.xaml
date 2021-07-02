@@ -1,0 +1,19 @@
+﻿<local:DataCreatorBaseWindow
+        x:TypeArguments="local:SchoolClass"
+        x:Class="WpfApp.ClassesCreatorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="ClassesCreatingWindow" Height="145" Width="280" Background="#FFCBFFC0" ResizeMode="NoResize" WindowStyle="ToolWindow">
+    <Grid Margin="10">
+        <TextBox x:Name="_name" VerticalContentAlignment="Center" TextWrapping="Wrap" Margin="0,31,120,39"/>
+        <TextBox x:Name="_population" VerticalContentAlignment="Center" TextWrapping="Wrap" Margin="145,31,0,39"/>
+        <Label Content="Название" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140"/>
+        <Label Content="Количество" HorizontalContentAlignment="Center" HorizontalAlignment="Right" VerticalAlignment="Top" Width="84"/>
+        <Button Content="Добавить" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="OnAddButtonClick" Width="120" Height="30"/>
+
+    </Grid>
+</local:DataCreatorBaseWindow>
